@@ -51,7 +51,7 @@ rep = llm_ollama.invoke([
     {"role":"system","content":"You are a helpful assistant. The output should be in Markdown"},
     {"role":"user","content":"comment peux tu m'aider"}
 ])
-print(rep.content)
+print(display(Markdown(response.content)))
 ```
 
 ## PARTIE II : Installation 
@@ -78,5 +78,4 @@ pip install tiktoken langchain-openai langchain-ollama python-dotenv
 Il s'agit de créer un fichier .env avec la clé OpenAI 
 ```code
 OPENAI_API_KEY=Sk-xxxx
-```
 ```
