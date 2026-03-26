@@ -79,3 +79,6 @@ Il s'agit de créer un fichier .env avec la clé OpenAI
 ```code
 OPENAI_API_KEY=Sk-xxxx
 ```
+## PARTIE III : Intéragir avec Ollama
+<img width="1022" height="796" alt="image" src="https://github.com/user-attachments/assets/4f92f268-846a-4a45-ba52-39d1d009aa59" />
+<img width="1013" height="803" alt="image" src="https://github.com/user-attachments/assets/1cc21484-6fc5-4657-ac4a-d07ee8e11410" />
